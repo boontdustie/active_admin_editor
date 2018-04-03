@@ -16,11 +16,20 @@ Add the following to your `Gemfile`:
 gem 'active_admin_editor'
 ```
 
-And include the wysiwyg styles in your `application.css`:
+And the required styles in your `active_admin.css`:
 
 ```scss
 //= require active_admin/editor/wysiwyg
+//= require active_admin/editor
 ```
+
+
+And the required javascripts in your `active_admin.js`:
+
+```js
+//= require active_admin/editor
+```
+
 
 Then run the following to install the default intializer:
 
